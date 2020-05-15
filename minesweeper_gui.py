@@ -98,7 +98,6 @@ def updateBoard(spaces_to_update):
     colorDict = {'1': "#0100fe", '2':"#017f01", '3':"#fe0000", '4':"#010080", '5':'#810102',
                  '6': "#008081", '7':"#000000" , '8': "#808080", "X": "#000000"}
     game_height = canvas_height - game_start_height
-    print(spaces_to_update)
     for space in spaces_to_update:
         i = space[0]
         j = space[1]
